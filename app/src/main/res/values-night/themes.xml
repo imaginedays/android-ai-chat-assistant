@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for dark mode. -->
+    <style name="Theme.AIChatAssistant" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Text and background colors for dark mode -->
+        <item name="android:textColorPrimary">#E0E0E0</item>
+        <item name="android:textColorSecondary">#AAAAAA</item>
+        <item name="android:windowBackground">#121212</item>
+        <!-- Enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+</resources>
